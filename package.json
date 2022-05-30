@@ -1,0 +1,58 @@
+{
+    "name": "new-base-front-web",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.5.0",
+        "@unform/core": "^2.1.6",
+        "@unform/web": "^2.1.6",
+        "axios": "^0.26.1",
+        "next": "12.1.4",
+        "next-auth": "^4.3.1",
+        "react": "18.0.0",
+        "react-dom": "18.0.0",
+        "react-icons": "^4.3.1",
+        "react-input-mask": "^2.0.4",
+        "react-select": "^5.2.2",
+        "react-toast-notifications": "^2.5.1",
+        "styled-components": "^5.3.5",
+        "swr": "^1.2.2",
+        "yup": "^0.32.11"
+    },
+    "devDependencies": {
+        "@next/eslint-plugin-next": "^12.1.4",
+        "@types/node": "17.0.23",
+        "@types/react": "17.0.43",
+        "@types/react-input-mask": "^3.0.1",
+        "@types/styled-components": "^5.1.24",
+        "@typescript-eslint/eslint-plugin": "^5.17.0",
+        "@typescript-eslint/parser": "^5.17.0",
+        "babel-plugin-styled-components": "^2.0.6",
+        "eslint": "^8.12.0",
+        "eslint-config-next": "12.1.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.4.0",
+        "prettier": "^2.6.1",
+        "typescript": "4.6.3"
+    },
+    "browserslist": [
+        "last 2 versions",
+        ">0.3%",
+        "not ie 11",
+        "not dead",
+        "not op_mini all"
+    ]
+}
